@@ -1,4 +1,28 @@
-<p align="center">
+{
+  "success": true,
+  "message": "عملیات با موفقیت انجام شد",
+  "result": {
+    "latestTrades": [
+      {
+        "symbol": "BTCUSDT",
+        "quantity": "2.0000010000000000",
+        "price": "21100.0000000000000000",
+        "sum": "0.0211000000000000",
+        "isBuyOrder": true,
+        "timestamp": "2025-05-17T11:53:02Z"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "quantity": "0.1200620000000000",
+        "price": "21100.0000000000000000",
+        "sum": "2533.3082000000000000",
+        "isBuyOrder": true,
+        "timestamp": "2025-05-17T11:50:06Z"
+      },
+      ...
+    ]
+  }
+}<p align="center">
   <img src="https://avatars0.githubusercontent.com/u/44036562?s=100&v=4"/> 
 </p>
 
@@ -70,3 +94,28 @@ For viewing the templates with `preview` label, provide query parameter `preview
 
 ### Enable template for public
 Remove the `labels` array from `properties.json` file to publish the template to public
+{
+  "success": true,
+  "message": "عملیات با موفقیت انجام شد",
+  "result": {
+    "latestTrades": [
+      {
+        "symbol": "BTCUSDT",
+        "quantity": "0.0000010000000000",
+        "price": "21100.0000000000000000",
+        "sum": "0.0211000000000000",
+        "isBuyOrder": true,
+        "timestamp": "2022-06-17T11:53:02Z"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "quantity": "0.1200620000000000",
+        "price": "21100.0000000000000000",
+        "sum": "2533.3082000000000000",
+        "isBuyOrder": true,
+        "timestamp": "2022-06-17T11:50:06Z"
+      },
+      ...
+    ]
+  }
+}
